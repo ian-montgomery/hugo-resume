@@ -3,13 +3,13 @@ basic:
   title: DevOps Engineer # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /images/profile.png        # avatar file path
+    path: /images/profile.jpeg # avatar file path
 
 contact:
   # meta
-  location: Wellington, New Zealand # location
-  email: ian@ianmontgomery.dev # email address
-  phone: +64 22 012 0192 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  location: # location
+  email: hello@ianmontgomery.dev # email address
+  phone: +64 22 012  0192 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: ianmontgomery.dev #site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
@@ -28,7 +28,7 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github: https://github.com/ian-montgomery                 # username          | https://github.com/username
+  github: ian-montgomery   # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin: https://www.linkedin.com/in/ian-montgomery/               # username          | https://linkedin.com/in/username
+  linkedin: ian-montgomery # username          | https://linkedin.com/in/username
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -69,7 +69,7 @@ contact:
   twitter:                 # username          | https://twitter.com/username
   mastodon:                # username@server
   instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
+  unsplash:                # username           | https://unsplash.com/@username
   _500px:                  # username          | https://500px.com/p/username
   youtube:                 # username          | https://www.youtube.com/@username
   tiktok:                  # username          | https://www.tiktok.com/@username
@@ -83,8 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    DevOps Engineer with a proven track record of driving operational excellence and software delivery efficiency. Experienced in managing cross-functional teams, I bring a blend of technical expertise and leadership skills to the table. Proficient in implementing robust CI/CD pipelines and ensuring seamless integration between development and operations. I thrive in dynamic environments where innovation and collaboration is encouraged. Committed to continuous improvement, I am ready to contribute my skills in automating deployments, optimising infrastructure, and maintaining secure and scalable systems for enhanced business outcomes.
-
+    DevOps Engineer with a proven track record of driving operational excellence and secure software delivery. Experienced in managing an eclectic array of teams, I bring a blend of technical expertise and leadership skills. Proficient in implementing robust CI/CD pipelines, application support, system administration, and ensuring seamless integration between development and operations. I tend to gravitate towards roles in which I am able to help growing teams implement and improve systems and processes. 
 experience:
   show: true
   order: 2
@@ -92,90 +91,77 @@ experience:
   description: |
     
   items:
-    - company:EndGame 
+    - company: EndGame 
       link: 'https://www.end-game.com/'
       tags: Full-time
-      date: 2021.11 - present
+      date: Nov 2021 - present
       role: DevOps Engineer 
       location: Wellington 
       description: |
-        Performed the role of Lifecycle Lead on multiple SaaS products in varying stages from pre-launch, launch, production and maintenance, which included
-        + Utilise Agile and DevOps practices in a cross-functional team, working in Azure and AWS cloud environments.
+        + DevOps Engineer working in the role of Lifecycle Lead on multiple SaaS products in development and production environments.  
+        + Utilising Agile methodologies in a multi-functional team, working in Azure and AWS cloud environments.
         + Provision, manage, and optimise cloud resources using Terraform for Infrastructure as Code.
-        + Craft robust CI/CD pipelines using GitLab, Octopus Deploy, and Azure DevOps.
-        + Implement comprehensive cloud security measures, working with Windows and Linux-based systems and conducting routine audits to fortify data integrity and compliance.
+        + Building CI/CD pipelines using GitLab, Octopus Deploy, and Azure DevOps.
+        + Implement comprehensive cloud security measures, working with Windows and Linux-based systems and conducting routine audits to ensure compliance.
         + Provide specialised support for .NET applications, debug and resolve issues across production environments.
         + Play an instrumental role in ensuring compliance with ISO 27001 standards, meticulously implement security policies to safeguard sensitive data.
         + Leverage strong communication skills to provide prompt and effective user support for production SaaS products, foster positive relationships, and enhance user experiences.
-        + Collaborate closely with developers, offer technical guidance and troubleshooting assistance for CI/CD systems to optimise the software development lifecycle, and promote a culture of continuous integration.
-        + Embrace Agile methodologies, participate in daily stand-ups, sprint planning, and retrospectives to maintain alignment across multiple Virtual Product Teams.
-        + Help design and implement SaaS Lifecycle as a product and write many procedures and policies which guide the day-to-day work of the DevOps engineers. 
-        + Write extensive documentation on CI/CD processes and architecture.
-        + Perform the EndGame role of "Go-To," responsible for pastoral care, mentoring, and guidance to several colleagues.
+        + Collaborate closely with developers, offer technical guidance and troubleshooting assistance for CI/CD systems to optimise the software development lifecycle.       
+        + Participate in daily stand-ups, sprint planning, and retrospectives to maintain alignment across multiple Virtual Product Teams.
+        + Help design and implement SaaS Lifecycle as a product and have written procedures and policies which guide the day-to-day work of the DevOps engineers. 
+        + Write documentation on CI/CD processes, architecture, and security procedures.
 
     - company: Epi-interactive 
       link: 'https://epi-interactive.com/'
       tags: Full-time
-      date: 2021.03 - 2021.11
+      date: Mar 2021 - Nov 2021
       role: Operations Manager & Full Stack Developer 
       location: Wellington 
       description: |
-        Managed a small team of developers and designers while also working as a full stack developer. Some of the duties included
-        + Managed day-to-day operations.
-        + Managed delivering a major data visualisation dashboard project for an American university.
-        + Developed and implemented software delivery operations including agile methodologies.Developed and implemented software delivery operations including agile methodologies.
+        + Managed a team of developers and designers while also working as a full stack developer for a company experienceing a sudden growth period.         
+        + Delivered a major data visualisation dashboard project for an American university.
+        + Facilitated efficient delivery of software prdoucts.        
         + Assisted Company Directors in achieving strategic goals.
-        + Supported, nurtured and lead a team of developers and designers.
-        + Facilitated performance reviews and CPD planning.
-        + Front end (Vue) and Silverstripe web development.
+        + Provided pastoral care and support to the team.         
+        + Carried out performance reviews and CPD planning with staff.
+        + Worked with Silverstripe and Vue for a website project.
         + Developed interactive data visualisations with R Shiny.
 
     - company: Commonsense 
       link: 'https://commonsenseorganics.co.nz/'
       tags: Full-time
-      date: 2018.07 - 2020.08
-      role: Manager 
+      date: Jul 2014 - Aug 2020
+      role: Manager 2018 - 2020 / Assistant Manager 2014 - 2018
       location: Wellington 
       description: |
-        Managed a busy flagship organic supermarket as well as an online delivery service. Helped to grow sales consistently year on year while improving productivity and efficiency. Handled a wide variety of customer expectations and demonstrated excellent customer service. Some of the duties included
-        + Designed, implemented and managed an efficient roster of 35 staff.
+        + Managed a busy flagship organic supermarket with 40 staff as well as an online delivery service. 
+        + Helped to grow sales consistently year on year while improving productivity and efficiency. 
+        + Handled a wide variety of customer expectations and demonstrated excellent customer service.         
+        + Redesigned staff roster to maximise efficiency while still ensuring excellent customer service.
         + Cultivated a positive and effective team culture across multiple departments.
-        + Recruited, interviewed, hired and trained all staff, as well as managed all HR for the shop. 
+        + Managed all HR for the shop, including recruitment, performance reviews, salary reviews, etc. 
         + Consistently met or exceeded sales targets.
         + Managed a multimillion-dollar budget, increased net profit, reduced expenses.
         + Designed displays and developed sales strategies. 
-        + Developed and maintained excellent working relationships with hundreds of suppliers. 
-        + Managed an online retail store and delivery service; effectively responded to increased demand for online services during lockdown.
-
-    - company: Commonsense 
-      link: 'https://commonsenseorganics.co.nz/'
-      tags: Full-time
-      date: 2014.07 - 2018.07
-      role: Assistant Manager 
-      location: Wellington 
-      description: |
-        Supported the manager in all of the above as well as
-        + Managed the largest ordering portfolio.
-        + Maintained internal IT systems.
-        + Facilitated workshops and events.
+        + Developed and nurtured excellent relationships with suppliers. 
+        + Managed an online retail store and delivery service; effectively responded to a significant increase in demand for online delivery services during pandemic.
 
     - company: Racine International (Formerly Racine Industries) 
       link: 'https://www.racineintl.com/' 
       tags: Full-time
-      date: 2009.08 - 2012.11
-      role: Web Developer & Social Media Marketing Manager 
+      date: Aug 2009 - Nov 2012
+      role: Webmaster 
       location: Racine, Wisconsin - USA 
       description: |
-        In-house web developer for a cleaning product manufacture
-        + Built corporate websites using WordPress, PHP, HTML, CSS, MySQL.
+        + Designed and built corporate websites using WordPress, PHP, HTML, CSS, MySQL.
         + Set up and maintained business social media accounts.
-        + Google Analytics and SEO.
+        + Leveraged Google Analytics and SEO, increasing traffic to marketing content.
         + Directed and produced corporate training videos.
-        + Managed social media marketing and content creation.
+        + Launched Racine Industries' social media marketing strategy and managed content creation.
 
 project:
-  show: true
-  order: 3
+  show: false 
+  order: 6
   title: Projects
   description: |
 
@@ -185,126 +171,101 @@ project:
       tags:
       date: 
       description: |
-        A personal website built on
-        + Hugo 
-        + Cloudflare 
+        ianmontgomery.dev 
+        + A personal website built with Hugo. 
 
     - name: Democracy Tools
       link: 'https://uchicago.shinyapps.io/democracy-tools/'
       tags: 
       date:
       description: |
-        A research project for the University of Chicago. I worked as a project manager and developer on this project. Built on 
-        + R
-        + R Shiny
-        + CSS 
+        uchicago.shinyapps.io/democracy-tools
+        + A research project for the University of Chicago. I worked as a project manager and developer on this project. Built with R and R Shiny.  
 
 skill:
   show: true
-  order: 4
+  order: 3
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+  
+  # items:
+  #   - name: Skill A
+  #     level: 5
+  #   - name: Skill B
+  #     level: 4
+  #   - name: Skill C
+  #     level: 3
+  #   - name: Skill D
+  #     level: 4
+  #   - name: Skill E
+  #     level: 3
+  #   - name: Skill F
+  #     level: 1
+  #   - name: Skill G
+  #     level: 4
+  #   - name: Skill H
+  #     level: 4
+  #   - name: Skill I
+  #     level: 3
 
   groups:
-    - name: Group A Skills
+    - name: DevOps  
       item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
+        - Terraform
+        - Azure & AWS 
+        - Git & GitOps 
+        - Octopus 
+        - CI/CD & Automation
+        - SonarQube
+        - Docker  
+    - name: Languages 
       item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+        - SQL
+        - MongoDB  
+        - PowerShell
+        - Bash
+        - C# 
+        - Javascript
+        - Python  
 
 education:
   show: true
-  order: 5
+  order: 4
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
+    - institution: University of Minnesota - Duluth 
+      link: 'https://www.d.umn.edu'
+      date: 2004 - 2009
+      major: English 
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        + Minored in Film Studies. 
+        + Member of the Literary Guild and Treasurer of the Art Guild.
+        + Radio DJ and College Programming Directory of the university radio station, KUMD. 
+
+    - institution: Dev Academy Aotearoa
+      link: 'https://devacademy.co.nz'
+      date: 2020
+      major: Full Stack Web Development
+      degree: 80 Credits NZQA Level 6 
+      description: |
+        + Built web apps using Javascript, React, Redux, and Node.
+        + Learned many principals of web development, including Test Driven Development and Agile methodologies.  
 
 certificate:
-  show: false 
-  order: 6
+  show: true 
+  order: 5
   title: Certificates
   description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
-
-    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
-
-    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
 
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
+    - name: Microsoft Certified Azure Fundamentals 
+      issuer: Microsoft 
+      date: 2022
+      link: 'https://www.credly.com/badges/4f6be8a6-d29a-4151-b85d-c98228422173'
       description: |
-        It's my Example Certificate One by Example.
-    - name: Example Certificate Two
-      issuer: by Example
-      date: 2020
-      link:
-      description: |
-        It's my Example Certificate Two by Example.
 
 publication:
   show: false 
@@ -405,8 +366,8 @@ language:
       level: Professional
 
 interest:
-  show: true
-  order: 12
+  show: false 
+  order: 12 
   title: Interests
   description: |
     The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
@@ -434,16 +395,9 @@ evaluation:
 
 reference:
   show: true
-  order: 14
+  order: 14 
   title: References
   description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
 
   items:
     - name: Sean Woodliffe 
