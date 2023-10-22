@@ -1,4 +1,4 @@
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://cv.ianmontgomery.dev/'
 disableKinds: [section, taxonomy, term, RSS, sitemap, 404]
 enableRobotsTXT: true
 languageCode: en
