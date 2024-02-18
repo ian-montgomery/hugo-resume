@@ -399,24 +399,27 @@ reference:
   title: References
   description: |
 
-  items:
-    - name: Sean Woodliffe 
-      link: 'https://www.end-game.com/'
-      title: Head of Lifecycle 
-      institution: EndGame 
-      address: 
-      email: sean.woodliffe@end-game.com 
-      phone: 021 060 1100
-      description: |
+  items: 
+    - name: Available upon request
+
+  # items:
+  #   - name: Sean Woodliffe 
+  #     link: 'https://www.end-game.com/'
+  #     title: Head of Lifecycle 
+  #     institution: EndGame 
+  #     address: 
+  #     email: sean.woodliffe@end-game.com 
+  #     phone: 021 060 1100
+  #     description: |
         
 
-    - name: Jo Morrison 
-      link:
-      title: Manager 
-      institution: Commonsense 
-      address: 
-      email: 
-      phone: 022 082 4810
-      description: |
+  #   - name: Jo Morrison 
+  #     link:
+  #     title: Manager 
+  #     institution: Commonsense 
+  #     address: 
+  #     email: 
+  #     phone: 022 082 4810
+  #     description: |
 
 close: <strong>Sorry, my resume has been hidden.</strong>
